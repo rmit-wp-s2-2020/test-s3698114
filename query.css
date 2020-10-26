@@ -1,10 +1,17 @@
+/* center text for title */
 h2{
     text-align: center;
 }
+/* fix form position */
 form {
     position: fixed;
 }
+/* coloring submit button */
 #submit {
     background-color: #E6AE47;
-    color: white;
+    color: #FFFFFF;
+}
+/* error color code for validation */
+.error {
+    color: #FF0000;
 }

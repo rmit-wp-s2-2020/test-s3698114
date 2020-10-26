@@ -9,10 +9,12 @@
 Send us an email.</h2>
 
 <label for="name">Your Name</label><br>
-<input type="text" id="name" name="name"><br>
+<input type="text" id="name" name="name">
+<span class="error"><?php echo $nameErr;?></span><br>
 
 <label for="email">Your Email</label><br>
-<input type="email" id="email" name="email"><br>
+<input type="email" id="email" name="email">
+<span class="error"><?php echo $emailErr;?></span><br>
 
 <label for="phone">Phone</label><br>
 <input type="number" id="phone" name="phone"><br>
