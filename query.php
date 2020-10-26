@@ -4,7 +4,7 @@
 <!-- calling css file -->
 <link rel="stylesheet" href="query.css"></head>
 <body>
-<form method="post">
+<form method="post" action="post.php">
 <h2>Questions? Comments?<br>
 Send us an email.</h2>
 
