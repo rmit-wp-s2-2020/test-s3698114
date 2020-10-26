@@ -1,5 +1,6 @@
 <html>
-<head></head>
+<head>
+<link rel="stylesheet" href="query.css"></head>
 <body>
 <form>
 <h2>Questions? Comments?<br>
