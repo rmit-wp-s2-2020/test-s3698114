@@ -20,7 +20,7 @@ Send us an email.</h2>
 <input type="number" id="phone" name="phone"><br>
 
 <label for="message">Your Message</label><br>
-<input type="textarea" id="message" name="message" row="4" cols="50"><br>
+<textarea id="message" name="message"></textarea><br>
 <br>
 <!-- submit button -->
 <input id="submit" type="submit" Value="SEND">

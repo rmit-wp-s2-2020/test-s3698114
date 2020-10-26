@@ -10,8 +10,16 @@ form {
 #submit {
     background-color: #E6AE47;
     color: #FFFFFF;
+    width: 80px;
 }
 /* error color code for validation */
 .error {
     color: #FF0000;
+}
+/* input size */
+input, textarea {
+    width: 200px;
+}
+textarea {
+    height: 100px;
 }
