@@ -13,7 +13,7 @@ Send us an email.</h2>
 <span class="error"><?php echo $nameErr;?></span><br>
 
 <label for="email">Your Email</label><br>
-<input type="email" id="email" name="email">
+<input type="text" id="email" name="email">
 <span class="error"><?php echo $emailErr;?></span><br>
 
 <label for="phone">Phone</label><br>
