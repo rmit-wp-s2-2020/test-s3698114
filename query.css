@@ -4,3 +4,7 @@ h2{
 form {
     position: fixed;
 }
+#submit {
+    background-color: #E6AE47;
+    color: white;
+}

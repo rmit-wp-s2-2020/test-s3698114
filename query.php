@@ -1,8 +1,10 @@
+<?php require_once('submit.php'); ?>
 <html>
 <head>
+<!-- calling css file -->
 <link rel="stylesheet" href="query.css"></head>
 <body>
-<form>
+<form method="post">
 <h2>Questions? Comments?<br>
 Send us an email.</h2>
 
@@ -17,8 +19,9 @@ Send us an email.</h2>
 
 <label for="message">Your Message</label><br>
 <input type="textarea" id="message" name="message" row="4" cols="50"><br>
-
-<input type="submit" Value="SEND">
+<br>
+<!-- submit button -->
+<input id="submit" type="submit" Value="SEND">
 </form>
 </body>
 </html>
